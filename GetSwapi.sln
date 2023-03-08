@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetSwapi", "GetSwapi.csproj", "{EF3D2FBF-D74A-422F-B26B-AC54241C4947}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GetSwapi", "GetSwapi.csproj", "{EF3D2FBF-D74A-422F-B26B-AC54241C4947}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Elementy rozwiązania", "Elementy rozwiązania", "{8BB13B63-64DB-4D1F-901A-188473C2BCC1}"
+	ProjectSection(SolutionItems) = preProject
+		Usings.cs = Usings.cs
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
