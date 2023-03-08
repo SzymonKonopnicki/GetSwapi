@@ -1,19 +1,5 @@
-﻿using GetSwapi.Interfaces;
-using GetSwapi.Models;
-using Newtonsoft.Json;
-using System.Data;
-using System.Linq;
-using System.Net;
-using System.Text.Json.Nodes;
-using System.Text.Json.Serialization;
-
-namespace GetSwapi.Services
+﻿namespace GetSwapi.Services
 {
-    /*
-    Endpoints
-        /people/ -- get all the people resources
-        /people/:id/ -- get a specific people resource
-    */
     public class PersonService : IPersonService
     {
         private readonly SwapiUrl _url;

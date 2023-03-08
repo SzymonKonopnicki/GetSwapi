@@ -1,8 +1,3 @@
-using GetSwapi.Interfaces;
-using GetSwapi.Models;
-using GetSwapi.Services;
-using Microsoft.Extensions.Configuration;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
