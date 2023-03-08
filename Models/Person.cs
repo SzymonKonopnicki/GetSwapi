@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Person
+    public class Person : BaseResource
     {
         public string name { get; set; }
         public string height { get; set; }

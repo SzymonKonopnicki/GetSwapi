@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Specie
+    public class Specie : BaseResource
     {
         public string name { get; set; }
         public string classification { get; set; }

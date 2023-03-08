@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Film
+    public class Film : BaseResource
     {
         public string title { get; set; }
         public int episode_id { get; set; }

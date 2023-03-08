@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Planet
+    public class Planet : BaseResource
     {
         public string name { get; set; }
         public string rotation_period { get; set; }

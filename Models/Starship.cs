@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Starship
+    public class Starship : BaseResource
     {
         public string name { get; set; }
         public string model { get; set; }

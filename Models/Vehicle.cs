@@ -1,6 +1,6 @@
 ﻿namespace GetSwapi.Models
 {
-    public class Vehicle
+    public class Vehicle : BaseResource
     {
         public string name { get; set; }
         public string model { get; set; }

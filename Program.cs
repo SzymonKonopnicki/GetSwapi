@@ -7,7 +7,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddSingleton(builder.Configuration.GetSection("SwapiEndpoints").Get<SwapiUrl>());
-builder.Services.AddScoped<IPersonService, PersonService>();
+builder.Services.AddScoped<ISwapiService, SwapiService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
